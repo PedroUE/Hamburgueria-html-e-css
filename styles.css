@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,10 @@ body {
     color: black;
 }
 
-header, nav, .hero, .produtos {
+header,
+nav,
+.hero,
+.produtos {
     display: flex;
     flex-wrap: wrap;
 }
@@ -68,7 +70,7 @@ main p {
 }
 
 .hero {
-    display:flex;
+    display: flex;
     gap: 2rem;
     margin-bottom: 3rem;
     align-items: center;
@@ -95,7 +97,7 @@ main p {
 .hero-text p {
     font-size: 1.1rem;
     text-align: justify;
-    font-style:italic;
+    font-style: italic;
 }
 
 .hero-text ul {
@@ -108,7 +110,7 @@ li {
 }
 
 .obs {
-    color: gray
+    color: gray;
 }
 
 .produtos {
@@ -117,13 +119,13 @@ li {
 
 .card {
     flex: 1;
-    min-width: 305px;
+    min-width: 310px;
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
-    background:red ;
+    background: red;
     color: white;
-    transition: 0.3s ;
+    transition: 0.3s;
 }
 
 .card:hover {
@@ -145,7 +147,7 @@ li {
     background-color: blue;
 }
 
-.green  {
+.green {
     background-color: green;
 }
 
@@ -154,7 +156,7 @@ li {
 }
 
 .brown {
- background-color: brown;
+    background-color: brown;
 }
 
 .red {
